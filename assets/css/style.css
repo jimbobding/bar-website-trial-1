@@ -1,0 +1,47 @@
+.navbar {
+    position: fixed;
+    z-index: 2;
+    opacity: .75;
+    bottom: 0;
+}
+
+article {
+  
+    background: url("../images/Blinker-menu.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+
+h1 {
+  text-align: center;
+  padding: 30%;
+  color: white;
+  letter-spacing: 28px;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+#drinks-menu {
+  
+    background: url("../images/Blinker-menu.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+
+}
+
