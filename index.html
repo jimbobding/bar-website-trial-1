@@ -10,7 +10,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
 
-   
+   <style>
+      img {
+          height: 100px;
+          width: 100%;
+      }
+
+   </style>
 
 
     <title>Blinker</title>
@@ -55,61 +61,201 @@
  <!-- /.navbar -->
 
   <!-- about-head --> 
-  <div class="row">
-    <div class="col-12">
-      <h2>About</h2>
-    </div>
+  <div class="container">
+     <div class="row">
+        <div class="col-12">
+          <h2>About</h2>
+          </div>
+      </div>
   </div>
  <!-- /.about-head -->
 
-  <!-- about --> 
-   <div class="row">
+  <!-- about -->  
+  <div class="container">
+     <div class="row">
        <div class="col-12">
+          
           <p>Blinker is a sustainable hospitality venue, utilising local produce for our seasonal cocktail and food menus to 
           bring you the best in what we think will bring you a unique experience.</p>
        </div>
+     </div>
    </div>
  <!-- /.about-->
 
   <!-- 3 column menu --> 
+  
   <div class="row">
      <div class="jumbotron col-4 drink-col">
-     <p>We specialise in making daring and innovative cocktails using locally sourced ingredients and adhering to a sustainability program.</p>
+      <img  class="couple" src="assets/images/Loop-couple.jpg" style="" >
+       <p>We specialise in making daring and innovative cocktails using locally sourced ingredients and adhering to a sustainability program.</p>
+     </div>
+       <div class="jumbotron col-4">
+       <p>All our food is made in house and from locally sourced ingredients.</p>
      </div>
      <div class="jumbotron col-4">
-     <p>All our food is made in house and from locally sourced ingredients.</p>
-     </div>
-     <div class="jumbotron col-4">
-     <p>Our roster of resident DJ’s share the stage to give a platform to emerging artists trying to get their music heard. </p>
+       <p>Our roster of resident DJ’s share the stage to give a platform to emerging artists trying to get their music heard. </p>
      </div>
   </div>
 
  <!-- /.3 column menu -->
 
   <!-- drinks --> 
-  <section id="drinks-menu" >
-      <div class="row">
-         <div  class="col-12 logo container">
-            
-       <img src="images/Blinker-menu.jpg" class="rounded-circle mr-3" height=100 width=100>
+   
+    <div class="container-fluid">
+        <div class="row">
+            <div  class="col-12 logo">
+               <div id="drinks-menu">
+             
+        
+               </div>
+            </div>
          </div>
-     </div>
- </section>
- <!-- /.drinks -->
+    </div>
+     <!-- /.drinks -->
 
-  <!-- food--> 
+      <!-- food-->
+     
+  <div class="container-fluid">
+     <div class="row">
+        <div  class="col-12 logo">
+           <div id="food-menu">
+        
+            
+           </div>
+         </div>
+       </div>
+   </div>
  <!-- /.food-->
 
   <!-- music --> 
+  <div class="container">
+    <div class="row">
+       <div class="col-6 jumbotron">
+        <div class="djimage">
+
+          
+
+          
+
+       </div>
+         </div>
+      
+       <div class="col-6  jumbotron">
+          <img src="assets/images/Lowell.jpg">
+          <h2>DJ Long guy</h2>
+       <p>Our resident Dj, Lowell AKA Dj long guy is here every thursday and friday spinning everything from pop punk to Afro-beat. Get ready for a long night.</p> 
+              <audio controls>
+  <source src="https://www.mixcloud.com/reformradio/out-of-quiet-pt70-6th-december-2019/" type="audio/ogg">
+  <source src="https://www.mixcloud.com/reformradio/out-of-quiet-pt70-6th-december-2019/" type="audio/mpeg">
+         Your browser does not support the audio element.
+    </audio>
+
+       </div>
+       
+    </div> 
+  </div>
+ 
  <!-- /.music -->
 
   <!-- booking --> 
+  <form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Example select</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect2">Example multiple select</label>
+    <select multiple class="form-control" id="exampleFormControlSelect2">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+</form>
  <!-- /.booking -->
  
   <!-- map --> 
  <!-- /.map -->
 
   <!-- footer--> 
+  <footer class="container-fluid" >
+    <div id="footer-details" class="row">
+        <div class="col-sm-4">
+            <h5 class="uppercase general-sub">About</h5>
+            <p class="inline-block">
+                Full stack web devolper. Versed in Html and Css. Cant wait to learn more.
+            </p>
+       </div>
+       <div class="col-sm-4">
+            <h5 class="uppercase general-sub">Download</h5>
+            <p class="inline-block">
+                Need a printable version of my CV? Download it here.
+                <a href="assets/CV/$immy-David-Resume-2019.pdf" target="_balnk" class="cv-pdf">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                    <span class="sr-only">Download link.</span>
+                </a>
+            </p>
+       </div>
+       <div class="col-sm-4">
+            <h5 class="uppercase general-sub">Social</h5>
+            <ul class="list-inline social-links">
+                 <li class="list-inline-item">
+                    <a target="_blank" href="">
+                       <i class="fa fa-facebook" aria-hidden="true"></i>      
+                       <span class="sr-only">Facebook</span>           
+                    </a>
+                 </li>
+                 <li class="list-inline-item">
+                    <a target="_blank" href="">
+                       <i class="fa fa-twitter" aria-hidden="true"></i>      
+                       <span class="sr-only">Twitter</span>           
+                    </a>
+                 </li>
+                 <li class="list-inline-item">
+                    <a target="_blank" href="">
+                       <i class="fa fa-linkedin" aria-hidden="true"></i>      
+                       <span class="sr-only">Linkedin</span>           
+                    </a>
+                 </li>
+                 <li class="list-inline-item">
+                    <a target="_blank" href="">
+                       <i class="fa fa-youtube" aria-hidden="true"></i>        
+                       <span class="sr-only">Pintrest</span>           
+                    </a>
+                 </li>
+                 <li class="list-inline-item">
+                    <a target="_blank" href="">
+                       <i class="fa fa-pinterest" aria-hidden="true"></i>      
+                       <span class="sr-only">Youtube</span>           
+                    </a>
+                 </li>
+                 <li class="list-inline-item">
+                    <a target="_blank" href="">
+                       <i class="fa fa-instagram" aria-hidden="true"></i>      
+                       <span class="sr-only">Instagram</span>           
+                    </a>
+                 </li>
+                 
+            </ul>
+       </div>
+
+    </div>
  <!-- /.footer -->
 
   
